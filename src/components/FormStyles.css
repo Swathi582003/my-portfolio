@@ -1,0 +1,72 @@
+/* FormStyles.css */
+
+.form {
+    max-width: 600px;
+    margin-top:450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #f9f9f9;
+    margin-left: 360px;
+    
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .demo{
+    height: 500px
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width/height */
+    background-color: rgba(255,255,255,0.1);
+    
+  }
+  
+  .form textarea {
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color:#f7d114;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:100%
+  }
+  
+  .form button:hover {
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  /* Optional: Add additional styles for form responsiveness or further customization */
+  @media screen and (max-width: 640px) {
+    .form {
+        max-width: 90%; /* Adjust width to fit smaller screens */
+        margin: 400px auto; /* Center the form vertically and horizontally */
+        padding: 15px;
+    }
+
+    .form input[type="text"],
+    .form input[type="email"],
+    .form textarea {
+        width: 100%; /* Make input fields full width */
+        margin-bottom: 15px; /* Increase space between input fields */
+    }
+
+    .form button {
+        width: 100%; /* Make the button full width */
+    }
+}
