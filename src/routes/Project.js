@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Heroimg2 from '../components/Heroimg2';
 import WorkCard from '../components/WorkCard';
-import PricingCard from '../components/PricingCard';
 
 const Project = () => {
   return (
