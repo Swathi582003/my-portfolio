@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: repeat(12,1fr);
     position: relative;
-    margin-top: 300px;
+    margin-top: 330px;
     margin-left: 150px;
     
 }
